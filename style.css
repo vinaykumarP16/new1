@@ -153,17 +153,9 @@
 .imagebox .form input{
 	padding: 8px;
 	margin: 10px;
+	background-color: transparent;
 	border: none;
-	align-items: center;
-	text-align: center;
 }
-.imagebox .form label{
-	color: red;
-	font-size: 18px;
-	font-family: consolas;
-
-}
-
 
 .imagebox, button{
 	text-align: center;
@@ -271,7 +263,7 @@ h1{
 		margin: 5px;
 	}
 	header .toggle{
-		margin: 7px;
+		margin: 8px;
 	}
 
 	.content{
@@ -285,12 +277,15 @@ h1{
 	.content h2{
 		position: absolute;
 		text-align: center;
-		margin-top: 20px;
+		margin-top: 35px;
 		
 	}
 	.content p{
 		margin-top: 30px;
 		text-align: center;
+		justify-content:center;
+		width: auto;
+		height: auto;
 
 	}
 	h1{
